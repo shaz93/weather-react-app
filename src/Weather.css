@@ -23,10 +23,11 @@
 
 }
 .Weather img {
-    min-height: 64px;
-    width: 64px;
-    margin-right: 64px;
-    display: inline;
+    height: 64px;
+    margin-right: 10px;
+    line-height: 5px;
+    display: inline-block;
+    vertical-align: top;
 }
 .Weather .temperature {
     font-weight: bold;
