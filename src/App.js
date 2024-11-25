@@ -15,10 +15,10 @@ export default function App() {
           {" "}
           Sheron Ndimande
         </a>
-        {""} and is{""}
+        {""} and is open sourced on{""}
         <a href="https://github.com/shaz93/react-weather" target="blank">
           {" "}
-          open-sourced on github
+          Github
         </a>
       </footer>
     </div>
