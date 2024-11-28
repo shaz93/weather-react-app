@@ -1,8 +1,8 @@
 .Weather{
     font-family: sans-serif;
     border: 1px solid #dadde1;
-    padding: 16px;
-    border-radius: 6px;
+    padding: 20px;
+    border-radius: 8px;
     color: rgb(135, 135, 135);
 }
 .Weather h1 {
