@@ -10,7 +10,7 @@ export default function WeatherTemperature(props){
         event.preventDefault();
         setUnit("celcius");
     }
-    function fahrenheit(){
+    function showFehrenheit(){
         return(props.celcius*9)/5 + 32;
     }
     if (unit==="celcius"){
