@@ -10,17 +10,17 @@ export default function App() {
 
         <footer>
           This project was coded by {" "}
-          <a href="https://github.com/" target="blank">
+          <a href="https://github.com/" target="blank" rel="noopener noreferrer">
             {" "}
             Sheron Ndimande
           </a>
           {" "} and is open-sourced on {" "}
-          <a href="https://github.com/shaz93/react-weather" target="blank">
+          <a href="https://github.com/shaz93/react-weather" target="blank" rel="noopener noreferrer">
             {" "}
             Github
           </a>
          {" "}, hosted on {" "}
-          <a href="/">Netlify</a>
+          <a href="/" target="blank" rel="noopener noreferrer">Netlify</a>
         </footer>
       </div>
     </div>
