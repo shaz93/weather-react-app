@@ -1,10 +1,70 @@
 .App {
-  
-  max-width: 600px;
-  margin: 30px auto;
+  max-width: 820px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 20px;
 }
+
+.App .container {
+  width: 100%;
+}
+
+.app-shell {
+  background: rgba(7, 18, 28, 0.28);
+  border: 1px solid rgba(173, 203, 255, 0.18);
+  border-radius: 28px;
+  padding: 18px 18px 10px;
+  box-shadow: 0 24px 60px rgba(3, 12, 22, 0.45);
+  backdrop-filter: blur(14px);
+}
+
+.weather-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px 10px 16px;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: rgba(144, 207, 255, 0.12);
+  border: 1px solid rgba(144, 207, 255, 0.18);
+  color: #d7eefc;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+}
+
+.weather-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #eef8ff;
+}
+
 .App footer {
-  font-size: 11px;
-  margin: 10px 0;
+  font-size: 12px;
+  margin: 18px 10px 6px;
+  text-align: center;
+  color: rgba(224, 236, 249, 0.82);
+}
+
+.App footer a {
+  color: #a8ebff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.App footer a:hover {
+  text-decoration: underline;
 }
 

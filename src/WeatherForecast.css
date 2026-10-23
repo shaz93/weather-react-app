@@ -1,9 +1,43 @@
-.WeatherForecast{
-    text-align: center;
-    color: rgb(50, 4, 94);
-    padding-top:40px;
+.WeatherForecast {
+  text-align: center;
+  color: #ebf6ff;
+  padding-top: 22px;
+  margin-top: 18px;
+  border-top: 1px solid rgba(170, 204, 243, 0.16);
 }
-.WeatherForecast-temperature-min{
-    opacity: 0.6;
-    margin-left: 5px;
+
+.WeatherForecast .row {
+  --bs-gutter-x: 0.8rem;
+}
+
+.WeatherForecast .col {
+  padding: 0.5rem;
+}
+
+.WeatherForecast-day {
+  margin-bottom: 10px;
+  font-size: 0.76rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(214, 230, 248, 0.74);
+}
+
+.WeatherForecast-temperatures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 8px;
+  font-size: 0.96rem;
+}
+
+.WeatherForecast-temperature-max {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.WeatherForecast-temperature-min {
+  opacity: 0.72;
+  color: #dcecff;
+  margin-left: 0;
 }
