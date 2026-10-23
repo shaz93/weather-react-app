@@ -35,7 +35,7 @@ export default function App() {
             </a>{" "}
             , hosted on{" "}
             <a
-              href="https://joyful-unicorn-61a505.netlify.app"
+              href="https://weather-react-app-m38j.onrender.com"
               target="blank"
               rel="noopener noreferrer"
             >
